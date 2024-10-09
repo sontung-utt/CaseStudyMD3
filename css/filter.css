@@ -190,3 +190,8 @@
 .filter-back-up .filter-sort button:hover {
     color: rgb(180, 21, 21);
 }
+
+.filter-back-up .filter-sort .item, .filter .filter-sort .item {
+    display: flex;
+    align-items: center;
+}

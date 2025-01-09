@@ -9,57 +9,12 @@
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/bd7b2915a7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/left-frame.css">
-    <link rel="stylesheet" href="css/manageType.css">
+    <link rel="stylesheet" href="css/manageBrand.css">
     <link rel="stylesheet" href="css/index.css">
     <title>Document</title>
 </head>
 <body>
-    <div class="left-frame">
-        <div class="left-main">
-            <div class="logo">
-                <div class="logo-img">
-                    <img src="image/logo.png" alt="">
-                </div>
-                <div class="user">
-                    <i class="fa-solid fa-user-group"></i>
-                    <p>Nhân viên</p>
-                </div>
-            </div>
-            <div class="manage">
-                <div class="icon">
-                    <div class="item">
-                        <i class="fa-solid fa-circle-user"></i>
-                    </div>
-                    <div class="item">
-                        <i class="fa-solid fa-house"></i>
-                    </div>
-                    <div class="item">
-                        <i class="fa-solid fa-box-open"></i>
-                    </div>
-                    <div class="item">
-                        <i class="fa-solid fa-users"></i>
-                    </div>
-                    <div class="item">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </div>
-                    <div class="item"></div>
-                </div>
-                <div class="info">
-                    <div class="name">
-                        <div class="type-name"></div>
-                        <div class="icon-name">
-                            <i class="fa-solid fa-bars"></i>
-                        </div>
-                    </div>
-                    <div class="list">
-                        <div class="list-item"></div>
-                        <div class="list-item"></div>
-                        <div class="list-item"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    
     <div class="container">
         <div class="left-frame">
             <div class="left-main">
@@ -112,7 +67,8 @@
                 <div class="account"></div>
             </div>
             <div class="info">
-                <div class="form">
+                
+                <div class="form-category">
                     <div class="search">
                         <div class="add-button">
                             <a href="">
@@ -120,25 +76,63 @@
                                 <p>Thêm mới</p>
                             </a>
                         </div>
+                        <div class="search-input">
+                            <div class="icon">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                            <div class="input">
+                                <input type="text" placeholder="Tìm kiếm">
+                            </div>
+                        </div>
                     </div>
-                    <div class="list">
+                    <div class="list-category">
                         <table border="1">
                             <tr>
                                 <th>STT</th>
-                                <th>Mã loại</th>
                                 <th>Mã loại sản phẩm</th>
                                 <th>Tên loại sản phẩm</th>
-                                <th>Mã thương hiệu</th>
-                                <th>Tên thương hiệu</th>
+                                <th>Hình ảnh</th>
                                 <th>Hành động</th>
                             </tr>
                             <tr>
                                 <td>1</td>
                                 <td>2</td>
                                 <td>3</td>
+                                <td><img src="image/hot-product-2.jpg" alt=""></td>
                                 <td>
                                     <button class="btn btn-edit">Sửa</button>
                             <button class="btn btn-remove">Xóa</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="form-brand">
+                    <div class="search">
+                        <div class="select-input">
+                            <h4>Chọn loại sản phẩm</h4>
+                            <select name="idCategory" id="idCategory">
+                                <option value="nameCategory">name category</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="list-brand">
+                        <table border="1">
+                            <tr>
+                                <th>STT</th>
+                                <th>Mã thương hiệu</th>
+                                <th>Tên thương hiệu</th>
+                                <th>Hình ảnh</th>
+                                <th>Hành động</th>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td><img src="image/hot-product-3.jpg" alt=""></td>
+                                <td>
+                                    <button class="btn btn-edit">Sửa</button>
+                                    <button class="btn btn-remove">Xóa</button>
                                 </td>
                             </tr>
                         </table>

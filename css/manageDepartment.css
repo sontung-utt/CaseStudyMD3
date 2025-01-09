@@ -26,10 +26,16 @@
     margin-top: 65px;
     display: flex;
     justify-content: space-between;
+    gap: 5px;
 }
 
-.main-info .form-category, .main-info .form-brand {
-    width: 49.5%;
+.main-info .form-staff {
+    width: 60%;
+    height: 100%;
+}
+
+.main-info .form-department {
+    width: 40%;
     height: 100%;
 }
 
@@ -42,7 +48,7 @@ th {
 }
 
 td {
-    font-size: 14px;
+    font-size: 15px;
 }
 
 th, td {
@@ -82,27 +88,21 @@ th, td {
 
 .main-info .info img {
     width: 120px;
-    height: 80px;
+    height: 150px;
 }
 
 th {
     background-color: rgb(230, 230, 230);
 }
 
+
+
 .info tr:nth-child(even) {
-    background-color: bisque;
+    background-color: pink;
 }
 
 .info tr:nth-child(odd) {
-    background-color: burlywood;
-}
-
-.type-info tr:nth-child(even) {
-    background-color: rgb(226, 172, 150);
-}
-
-.type-info tr:nth-child(odd) {
-    background-color: lightsalmon;
+    background-color: rgb(251, 148, 165);
 }
 
 .search {
@@ -181,7 +181,7 @@ th {
 }
 
 .search select {
-    width: 100%;
+    width: 80%;
     height: 30px;
     outline: none;
     font-size: 16px;

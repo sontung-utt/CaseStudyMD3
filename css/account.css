@@ -31,14 +31,15 @@ table {
 
 th {
     font-size: 16px;
+    padding: 4px;
 }
 
 td {
     font-size: 14px;
+    padding: 2px;
 }
 
 th, td {
-    padding: 4px;
     text-align: center;
 }
 
@@ -73,8 +74,8 @@ th, td {
 }
 
 img {
-    width: 200px;
-    height: 100px;
+    width: 120px;
+    height: 150px;
 }
 
 th {
@@ -82,22 +83,27 @@ th {
 }
 
 .info-product tr:nth-child(even) {
-    background-color: rgb(246, 155, 155) ;
+    background-color: rgb(23, 167, 23) ;
 
 }
 
 .info-product tr:nth-child(odd) {
-    background-color: rgb(228, 100, 100);
+    background-color: rgb(109, 225, 109);
 }
 
-table td .small {
-    width: 50px;
+table i {
+    font-size: 18px;
 }
 
-table td .medium {
+
+.large {
+    width: 250px;
+}
+
+.medium {
     width: 150px;
 }
 
-table td .large {
-    width: 300px;
+.small {
+    width: 60px;
 }

@@ -31,14 +31,15 @@ table {
 
 th {
     font-size: 16px;
+    padding: 4px;
 }
 
 td {
     font-size: 14px;
+    padding: 2px;
 }
 
 th, td {
-    padding: 4px;
     text-align: center;
 }
 
@@ -73,8 +74,8 @@ th, td {
 }
 
 img {
-    width: 200px;
-    height: 100px;
+    width: 120px;
+    height: 150px;
 }
 
 th {
@@ -90,6 +91,10 @@ th {
     background-color: rgb(228, 100, 100);
 }
 
+table i {
+    font-size: 18px;
+}
+
 table td .small {
     width: 50px;
 }
@@ -99,5 +104,5 @@ table td .medium {
 }
 
 table td .large {
-    width: 300px;
+    width: 250px;
 }

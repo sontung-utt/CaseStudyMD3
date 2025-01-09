@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/bd7b2915a7.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="css/cart.css">
+
+    <title>Quản lý giỏ hàng</title>
+</head>
+<body>
+<div class="container">
+
+        <div class="header-form">
+
+            <div class="item-header">
+                <a href="http://localhost:8080/view">
+                    <i class="fa-solid fa-house"></i>
+                    <p>Trang chủ</p>
+                </a>
+            </div>
+
+        </div>
+       
+        <div class="info-cart">
+            <table border="1">
+                <tr>
+                    <th colspan="6">THÔNG TIN GIỎ HÀNG</th>
+                </tr>
+                <tr>
+                    <th>STT</th>
+                    <th>Tên sản phẩm</th>
+                    <th>Số lượng</th>
+                    <th>Đơn giá</th>
+                    <th>Ngày thêm vào giỏ hàng</th>
+                    <th>Cập nhật giỏ hàng</th>
+                </tr>
+                <c:forEach var="item" items="" varStatus="loop">
+                    <tr>
+                        <td>${loop.index + 1}</td>
+                        <td>${item.id}</td>
+                        <td>${item.name}</td>
+                        <td>${item.name}</td>
+                        <td>${item.name}</td>
+                        <td class="btn">
+                            <a href=""><button><i class="fa-solid fa-cart-arrow-down"></i></button></a>
+                        </td>
+                    </tr>
+                </c:forEach>
+            </table>
+        </div>
+</div>
+</body>
+</html>

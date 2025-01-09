@@ -28,13 +28,14 @@
     justify-content: space-between;
 }
 
-.main-info .form-category, .main-info .form-brand {
-    width: 49.5%;
+.main-info .form {
+    width: 100%;
     height: 100%;
 }
 
 table {
     width: 100%;
+    margin-top: 5px;
 }
 
 th {

@@ -260,4 +260,101 @@
     transform: translateY(-50%) scale(1.2);
 }
 
+/* item-product */
+.food {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border-top: 1px solid gainsboro;
+}
+.food .item-product{
+    width: 14.6%;
+    height: 280px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.food a {
+    text-decoration: none;
+    color: black;
+}
+
+.item-product .image {
+    width: 100%;
+    height: 60%;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.item-product .info-product{
+    width: 100%;
+    height: 22%;
+    padding-left: 5px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.info-product .name {
+    font-size: 17px;
+    margin-bottom: 3px;
+}
+
+.info-product .address {
+    font-size: 14px;
+    color: rgb(155, 155, 155);
+}
+
+.item-product .price-product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 15px;
+    height: 15%;
+}
+
+.price-product .price {
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+}
+
+.price h3{
+    color: rgb(67, 199, 243);
+    margin-left: 5px;
+}
+
+.price i {
+    font-size: 20px;
+    color: rgb(211, 3, 3);
+}
+
+.price-product .cart-item {
+    font-size: 22px;
+}
+
+.price-product .cart-item i {
+    color: lightcoral;
+}
+
+.price-product .cart-item i:hover {
+    color: darkred;
+}
+
+
+.price-product .cart-item:hover {
+    font-size: 28px;
+    cursor: pointer;
+}
+
 
